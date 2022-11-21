@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+</head>
+<body>
+  <h1>RegisterForm</h1>
+  <p>Please fill out the forms!</p>
+    <form>
+    <fieldset>
+        <legend>User Info</legend>
+            <label for="firstname"><input type="text" id="firstname" placeholder="Enter your firstname" required> Firstname</label>
+            <p>
+            <label for="lastname"><input type="text" id="lastname" placeholder="Enter your lasttname" required> Lastname</label>
+            <p>
+            <label for="password"><input type="password" id="password" placeholder="Enter your password" required> Password</label>
+            <p>
+            <label for="email"><input type="email" id="email" placeholder="Enter your email" required> Email</label>
+            <p>
+            <label for="date">Enter your date of birth</label>
+                <input type="date" id="date of birth" name="date of birth" 
+                    value="2000-01-01"
+                    min="1950-01-01" max="2022-11-01">
+    </fieldset>
+    <fieldset>
+            <label for="phone">Enter your phone number:</label>
+
+            <input type="tel" id="phone" name="phone"
+            required>
+             <small>Format: 8 700 111 22 33</small>
+    </fieldset>
+    <fieldset>
+            <legend>Gender</legend>
+                <label for="male"><input type="radio" id="male" name="gender">Male</label>
+                <label for="female"><input type="radio" id="female" name="gender">Female</label>
+    </fieldset>
+    <fieldset>
+            <legend>City</legend>
+                <select name="city" id="">
+                    <option value="astana">Astana</option>
+                    <option value="almaty">Almaty</option>
+                    <option value="Aktau">Aktau</option>
+                    <option value="Shymkent">Shymkent</option>
+                    <option value="Taraz">Taraz</option>
+                </select>
+    </fieldset>
+        
+        <a href="https://s1tora.github.io/Home-work/authorization.html"><input type="button" value="Sign up"></a>
+        <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+        <p>Already have an account? <a href="https://s1tora.github.io/Home-work/authorization.html">Sign in</a>.</p>
+        </form>
+   
+</body>
+</html>
